@@ -24,8 +24,32 @@
     background-color: rgb(146, 206, 230);
     justify-content: center;
     min-width: 800px;
-    top:40%;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 30px 20px;
+    position: absolute;
+    top:50%;
     left:50%;
+    transform: translate(-50%, -50%);
     align-items: center;
+    box-shadow: 0 0 30px;
+
+}
+
+.box > * {
+    color: white;
+    
+}
+
+#unbox{
+    
+}
+
+
+button {
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%) scale(2.3);
+    position: absolute;
 
 }
